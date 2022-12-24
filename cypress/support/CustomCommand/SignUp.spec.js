@@ -6,8 +6,8 @@ Cypress.Commands.add("SignUp", () => {
 
 Cypress.Commands.add("NameInput", () => {
     cy.fixture('elements').then(ele => {
-        cy.get(ele.FirstNameInput).should('be.visible').type(ele.FirstName);
-        cy.get(ele.LastNameInput).type(ele.LastName);
+    cy.get(ele.FirstNameInput).should('be.visible').fill(ele.FirstName);
+        cy.get(ele.LastNameInput).fill(ele.LastName);
     })
 })
 
@@ -15,7 +15,7 @@ Cypress.Commands.add("NameInput", () => {
 
 Cypress.Commands.add("EmailInput", () => {
     cy.fixture('elements').then(ele => {
-        cy.get(ele.EmailInput).should('be.visible').type(ele.Email);
+        cy.get(ele.EmailInput).should('be.visible').fill(ele.Email);
     })
 })
 
@@ -23,7 +23,7 @@ Cypress.Commands.add("EmailInput", () => {
 
 Cypress.Commands.add("PasswordInput", () => {
     cy.fixture('elements').then(ele => {
-        cy.get(ele.PasswordInput).should('be.visible').type(ele.Password);
+        cy.get(ele.PasswordInput).should('be.visible').fill(ele.Password);
     })
 })
 Cypress.Commands.add("CheckboxInput", () => {
