@@ -1,0 +1,17 @@
+{
+  "CourseBtn": "#menu-home-page-menu > .et_pb_menu_page_id-216155 > a",
+  "SigninBtn": ".header__nav-item > a",
+  "SingUpVerification": ".remote-sign-in__divider > span",
+  "SignupBtn": ".sign-in__sign-up > a",
+  "FirstNameInput": "[name='user[first_name]']",
+  "LastNameInput": "[name='user[last_name]']",
+  "EmailInput": "[name='user[email]']",
+  "PasswordInput": "[name='user[password]']",
+  "Checkbox": "[type='checkbox']",
+  "SubmitBtn": "[data-callback='onSubmit']",
+  "FirstName": "Bright",
+  "LastName": "Stephen",
+  "Email": "stephalex222@gmail.com",
+  "Password": "0909090414",
+  "captcha": "[style='margin: 0px auto; top: 0px; left: 0px; right: 0px; position: absolute; border: 1px solid rgb(204, 204, 204); z-index: 2000000000; background-color: rgb(255, 255, 255); overflow: hidden; width: 400px; height: 580px;'] > iframe"
+}
