@@ -1,0 +1,154 @@
+[
+  {
+    "description": "    Every user must have an account",
+    "elements": [
+      {
+        "description": "",
+        "id": "a-user-should-be-able-to-login-to-ultimateqa-and-sign-in-to-get-a-course;creating-an-ultimate-user-account",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Creating an ultimate user account",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I visit the ultimateqa site",
+            "result": {
+              "duration": 3665000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on the courses tab",
+            "result": {
+              "duration": 15205000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click on the sign in button",
+            "result": {
+              "duration": 12037000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see an empty form with a sign-up text below",
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on the sign-up button",
+            "result": {
+              "duration": 14813000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "I enter my First Name and LastName",
+            "result": {
+              "duration": 246000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter my Email address",
+            "result": {
+              "duration": 275000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 13,
+            "name": "I enter my correct Password",
+            "result": {
+              "duration": 372000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 14,
+            "name": "I check the checkbox",
+            "result": {
+              "duration": 504000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 15,
+            "name": "I click the submit button",
+            "result": {
+              "duration": 418000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see the captcha popup",
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "a-user-should-be-able-to-login-to-ultimateqa-and-sign-in-to-get-a-course",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "A user should be able to login to ultimateqa and sign-in to get a course",
+    "uri": "cypress\\e2e\\feature\\Utimategqa.feature"
+  }
+]
